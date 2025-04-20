@@ -19,7 +19,7 @@
 //
 //public class Main extends Application {
 //    //Variable
-//    static int speed = 10;
+//    static int speed = 5;
 //    static int foodColor = 0;
 //    static int width = 20;
 //    static int height = 20;
@@ -213,7 +213,7 @@
 //                    continue start;
 //                }
 //            }
-//            foodColor = rand.nextInt(10);
+//            foodColor = rand.nextInt(5);
 //            speed++;
 //            break;
 //        }
@@ -245,7 +245,7 @@ import java.util.List;
 import java.util.Random;
 
 public class Main extends Application {
-    static int speed = 10;
+    static int speed = 5;
     static int foodColor = 0;
     static int width = 20;
     static int height = 20;
@@ -443,7 +443,7 @@ public class Main extends Application {
 
     public void restartGame() {
         gameOver = false;
-        speed = 10;
+        speed = 5;
         direction = Dir.left;
         snake.clear();
         snake.add(new Corner(width / 2, height / 2));

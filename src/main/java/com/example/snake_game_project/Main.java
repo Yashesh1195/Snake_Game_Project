@@ -216,7 +216,7 @@ public class Main extends Application {
 
     public void restartGame() {
         gameOver = false;
-        speed = 5;
+        speed = 3;
         direction = Dir.left;
         snake.clear();
         snake.add(new Corner(width / 2, height / 2));
